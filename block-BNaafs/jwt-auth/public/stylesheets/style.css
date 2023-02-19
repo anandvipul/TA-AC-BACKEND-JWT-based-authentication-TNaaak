@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+ul li {
+  display: inline;
+  list-style: none;
+}
+
+a {
+  color: #00b7ff;
+  text-decoration: none;
+}
+
+.center {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.header {
+  text-align: center;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  padding-right: 2rem;
+}
+.main {
+  box-shadow: 2px 2px 2px 2px red;
+}
+
+.welcome-message h1 {
+  font-size: 100px;
+  font-weight: 100;
+}
+
+.form-item {
+  font-size: 1.5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.input-field {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.form-container form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel='stylesheet' href='/stylesheets/style.css'/>
+    </head>
+    <body>
+        <div class="header center">
+            <div class="logo">
+                <h3>Logo</h3>
+            </div>
+            <nav>
+                <ul>
+                    <li class="nav-items">
+                        <a href="#">Premium</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main center">
+            <section class="form-container">
+                <form action="/users/login" method="post">
+                    <div class="username form-item">
+                        <label for="username">User Name</label>
+                        <input type="text" name="username" id="username" class="input-field">
+                    </div>
+                    <div class="password form-item">
+                        <label for="password">Password</label>
+                        <input class="input-field" type="password" name="password" id="password">
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+    </body>
+</html>
